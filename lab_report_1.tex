@@ -29,6 +29,7 @@
 \usepackage{minted}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{array}
 \setCJKmainfont[BoldFont={FZHei-B01},ItalicFont={FZKai-Z03}]{FZShuSong-Z01}
 \setlength\parindent{2em} % Removes all indentation from paragraphs
 
@@ -39,32 +40,31 @@
 %----------------------------------------------------------------------------------------
 %	DOCUMENT INFORMATION
 %----------------------------------------------------------------------------------------
-
-
+% \includegraphics[scale=0.13]{xiaohui.jpeg}
+%         \\[30pt] \includegraphics[scale=0.8]{xiaoming.png}
+%         \\[10pt] \textbf{\LARGE{SHANGHAI UNIVERSITY}}
+%         \\[20pt] \textbf{\Huge{操作系统(2)实验报告}}
+%         \\[20pt]
+%         \begin{table}[h]
+%         \renewcommand\arraystretch{1.9}
     
-\title{\includegraphics[scale=0.13]{xiaohui.jpeg}
-        \\[30pt] \includegraphics[scale=0.8]{xiaoming.png}
-        \\[10pt] \textbf{\LARGE{SHANGHAI UNIVERSITY}}
-        \\[20pt] \textbf{\Huge{操作系统(2)实验报告}}
-        \\[20pt]
-        \begin{table}[h]
-        \renewcommand\arraystretch{1.9}
-    
-        \centering%表格居中，表项也居中
-        \begin{tabular}{|p{2.3cm}<{\centering}|p{5.7cm}<{\centering}|}\hline
-            \Large{组号}&\Large{} \\\hline
-            \Large{姓名}&\Large{} \\\hline
-            \Large{学号}&\Large{} \\\hline
-            \Large{实验序号}&\Large{} \\\hline
-            \Large{实验日期}&\Large{} \\\hline
+%         \centering%表格居中，表项也居中
+%         \begin{tabular}{|p{2.3cm}<{\centering}|p{5.7cm}<{\centering}|}\hline
+%             \Large{组号}&\Large{} \\\hline
+%             \Large{姓名}&\Large{} \\\hline
+%             \Large{学号}&\Large{} \\\hline
+%             \Large{实验序号}&\Large{} \\\hline
+%             \Large{实验日期}&\Large{} \\\hline
         
-        \end{tabular}
+%         \end{tabular}
    
-        \end{table}
+%         \end{table}
 
 
-        \date{} %清空日期
-} % Title
+%         \date{} %清空日期
+
+    
+\title{\includegraphics[scale=0.13]{xiaohui.jpeg}\\[30pt] \includegraphics[scale=0.8]{xiaoming.png}\\[10pt] \textbf{\LARGE{SHANGHAI UNIVERSITY}}\\[20pt] \textbf{\Huge{数据库综合项目报告}}\\[20pt]\begin{table}[h]\renewcommand\arraystretch{1.9} \centering  \begin{tabular}{|p{2.3cm}<{\centering}|p{5.7cm}<{\centering}|}\hline \Large{组号}&\Large{五} \\\hline \Large{组员1}&\Large{19120159 吴行健} \\\hline \Large{组员2}&\Large{19120179 高睿宁} \\\hline \Large{组员3}&\Large{19120470 赵亮} \\\hline \Large{项目名}&\Large{教务管理系统} \\\hline \Large{完成日期}&\Large{2022.5.21} \\\hline \end{tabular} \end{table} \date{}}
 
 
 
@@ -194,14 +194,14 @@ The \emph{units of atomic weight} are two-fold, with an identical numerical valu
 
 \begin{minted}{c++}
     
-    #include<iostream>
-    using namespace std;
-    int main()
-    {   
-        cout<<Hello World<<endl
+            #include<iostream>
+            using namespace std;
+            int main()
+            {   
+                cout<<Hello World<<endl
 
-        return 0;
-    }   
+                return 0;
+            }   
 
 \end{minted}
 
